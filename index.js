@@ -11,6 +11,6 @@ function nameToAttributes (names) {
     const lastHalf = splitNames[1];
     name.firstName= firstHalf;
     name.lastName = lastHalf;
-    return Object.assign(name, {name.firstName, name.lastName} );
+    return {name.firstName, name.lastName};
   })
 };
