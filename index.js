@@ -3,12 +3,12 @@ function lowerCaseDrivers (array) {
     return names.toLowerCase();
   })
 };
-//
-// function nameToAttributes (array) {
-// };
 
-// function attributesToPhrase (array) {
-//   return array.map(function (array) {
-//     return array.name 'is from' array.hometown ;
-//   }
-// };
+function nameToAttributes (names) {
+  return names.map(function (name) {
+    const splitNames = name.split(" ");
+    const firstName = splitNames[0];
+    const lastName = splitNames[1]
+    return `${firstName} ${lastName}`;
+  })
+};
