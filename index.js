@@ -1,1 +1,19 @@
-// Code your solution in this file.
+function lowerCaseDrivers (array) {
+  return array.map(function (names) {
+    return names.toLowerCase();
+  })
+};
+
+function nameToAttributes (names) {
+  return names.map(function (name) {
+    let firstHalf = name.split(" ")[0];
+    let lastHalf = name.split(" ")[1];
+    return {firstName: firstHalf, lastName: lastHalf};
+  })
+};
+
+function attributesToPhrase (names) {
+  return names.map(function (key) {
+    return `${key.name} is from ${key.hometown}`;
+  })
+};
