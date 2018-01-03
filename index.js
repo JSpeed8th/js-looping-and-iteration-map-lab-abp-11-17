@@ -9,7 +9,7 @@ function nameToAttributes (names) {
     const splitNames = name.split(" ");
     const firstHalf = splitNames[0];
     const lastHalf = splitNames[1];
-    name.firstName = firstHalf;
+    name["firstName"]= firstHalf;
     name.lastName = lastHalf;
     console.log(name.firstName);
   })
