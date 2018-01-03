@@ -7,7 +7,7 @@ function lowerCaseDrivers (array) {
 function nameToAttributes (names) {
   return names.map(function (name) {
     const splitNames = name.split(" ");
-    console.log (name.firstName = splitNames[0]);
+    return name.firstName = splitNames[0];
     console.log (name.firstName = splitNames[1]);
   })
 };
