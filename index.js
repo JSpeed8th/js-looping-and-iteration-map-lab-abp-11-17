@@ -7,8 +7,8 @@ function lowerCaseDrivers (array) {
 // function nameToAttributes (array) {
 // };
 
-function attributesToPhrase (array) {
-  return array.map(function (array) {
-    return array.name 'is from' array.hometown ;
-  }
-};
+// function attributesToPhrase (array) {
+//   return array.map(function (array) {
+//     return array.name 'is from' array.hometown ;
+//   }
+// };
