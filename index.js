@@ -10,5 +10,6 @@ function nameToAttributes (names) {
     console.log (splitNames[0])
     console.log(splitNames[1])
     console.log (name.firstName = splitNames[0]);
+    console.log (name.firstName = splitNames[1]);
   })
 };
