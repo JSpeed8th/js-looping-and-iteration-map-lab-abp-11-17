@@ -11,3 +11,9 @@ function nameToAttributes (names) {
     return {firstName: firstHalf, lastName: lastHalf};
   })
 };
+
+function attributesToPhrase (names) {
+  return names.map(function (key) {
+    return `${key.name} is from ${key.hometown}`;
+  })
+}
